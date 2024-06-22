@@ -8,8 +8,10 @@ create table
 insert into teste values (1, 'João');
 select * from teste;
 **********************************************
-create database banco_games default character set utf8 collate utf8_general_ci;
-use banco_games;
+drop database db_games; 
+
+create database db_games default character set utf8 collate utf8_general_ci;
+use db_games;
 show databases;
 
 create table usuarios(
